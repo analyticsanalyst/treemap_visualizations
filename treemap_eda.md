@@ -16,7 +16,6 @@ for(p in required_packages) {
   #       install.packages(p, repos = "http://cran.us.r-project.org")
   library(p,character.only = TRUE)
 }
-pct_formater_1 <- scales::label_percent(accuracy = 1)
 ```
 
 ### Load example dataset
